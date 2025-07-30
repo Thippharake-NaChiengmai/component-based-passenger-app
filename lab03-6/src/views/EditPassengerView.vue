@@ -27,9 +27,9 @@ function updatePassenger() {
   // Implement update logic here (API call)
   setStateMessage('Passenger details updated!')
   // Optionally, navigate after a delay
-  // setTimeout(() => {
-  //   router.push({ name: 'passenger-details', params: { id: route.params.id } })
-  // }, 1500)
+  setTimeout(() => {
+    router.push({ name: 'passenger-details', params: { id: route.params.id } })
+  }, 1500)
 }
 </script>
 
